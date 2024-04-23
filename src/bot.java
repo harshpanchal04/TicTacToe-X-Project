@@ -1,3 +1,3 @@
-public class bot {
-
+public class bot extends player {
+    BotDifficultyLevel difficultyLevel;
 }

@@ -8,6 +8,11 @@ public class game {
     List<Move> ListOfMoves;
     gameState gameState;
 
+    game(board board,gameState state, int move ){
+        this.board = board;
+        this.gameState = state;
+        this. nextPlayerMoveIndex = move;
+    }
     public static void main(String[] args) {
 
     }
